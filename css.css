@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    height: 650px;
+    width: 850px;
+    
+    background-size: cover;
+    background-image: url('./halie-west-25xggax4bSA-unsplash.jpg');
+    display: flex; 
+}
+
+.logo-icon{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgba(0, 0, 0, 0.5);
+    align-self: center;
+}
+
+.odin-logo{
+    background-image: url("./odin-lined.png");
+    height: 70px;
+    width: 50px;
+    background-size: cover;
+}
+
+.odin-char{
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.description{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px;;
+ 
+}
+
+.desc{
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    box-shadow: 10px 10px white;
+
+}
+
+.block{
+    padding: 10px;
+}
+.form>*{
+    flex:0 0 33%;
+}
+
+label{
+    font-size: small;
+}
+
+input{
+    border-radius: 5px;
+}
+div>input:valid{
+    border-color: green;
+}
+
+div>input:invalid{
+    border-color: red;
+}
+
+.caption{
+    margin-left: 5px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: rgba(0, 128, 0, 0.459);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+b{
+    color: rgba(0, 128, 0, 0.459);
+}
+
+
